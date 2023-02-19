@@ -1,0 +1,9 @@
+Ten = input('请输入一个十进制的整数');
+Sum = 0;
+Timer = 0;
+while(Ten > 2)
+    Cache = rem(Ten,2);
+    Sum = Sum + Cache*(10^Timer);
+    Timer = Timer + 1;
+    Ten = (Ten - Cache)/2;
+
