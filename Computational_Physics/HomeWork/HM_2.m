@@ -18,7 +18,7 @@ function y = g(x)           %迭代函数
 end
 
 function m = J(x)           %Jacobi矩阵
-    m = [3 -x(3)*sin(x(2)*x(3))/3 -x(2)*sin(x(2)*x(3))/3; 
+    m = [3 x(3)*sin(x(2)*x(3)) x(2)*sin(x(2)*x(3)); 
     2*x(1) -162*(x(2) + 0.1) cos(x(3));
     -x(2)*exp(-x(1)*x(2)) -x(1)*exp(-x(1)*x(2)) 20];
 end
