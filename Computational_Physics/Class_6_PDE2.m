@@ -1,5 +1,5 @@
 clear, clc
-%FDM解偏微分方程u(x,y)
+%有限差分法FTCS格式解偏微分方程u(x,y)
 
 dx = 0.05;
 dy = 0.05;
