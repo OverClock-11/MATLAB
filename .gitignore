@@ -1,3 +1,7 @@
 *.mlx
+*.asv
+*.pdf
+*.gif
+*.mp4
 /Computational_Physics/牛顿法
 /Rhad
