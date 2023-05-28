@@ -4,5 +4,7 @@
 *.gif
 *.mp4
 *.jpg
+*.xlsx
+*.svg
 /Computational_Physics/牛顿法
 /Rhad
