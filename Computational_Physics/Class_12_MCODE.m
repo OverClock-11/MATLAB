@@ -5,7 +5,8 @@ b = 5;
 h = 0.02;
 x = a:h:b;
 N = size(x, 2);
-y = 4*ones(1, N);
+y = zeros(1, N);
+y(1) = 4;
 K = 10000;
 
 for i = 2:N
@@ -19,7 +20,7 @@ for i = 2:N
 end
 
 plot(x,y)
-
+grid on
 function z = f(x, y)
     z = x*sqrt(abs(y)) + sin(x*pi/2)^3 - 3*Theta(x - 2);
 end
